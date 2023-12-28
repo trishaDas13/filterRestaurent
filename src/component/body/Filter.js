@@ -48,6 +48,7 @@ function Filter() {
                     min={1}
                     step={0.5}
                     max={6}
+                    placeholder='Ratings'
                     onChange={(e) => filterByRating(e.target.value)}
                 />
             </div>
